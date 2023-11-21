@@ -1,0 +1,49 @@
+.shopDiv{
+    border: 5px solid #ddafaf;
+    background-image: repeating-linear-gradient(90deg, #e9e5e9, #fbd0fb,#e7e7ff );
+    border-radius: 3%;
+    margin: 10px;
+padding:15px;
+}
+.title{
+    text-align:center;
+}
+.sideDiv{
+    border: 5px double red;
+    width: 500px;
+    border-radius: 3px;
+    outline-offset: 3px;
+    background-color: #f5f2c4;
+    outline: 3px solid #e70e90;
+margin-top: 50px;
+}
+
+.itemsInCart{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 4px dashed pink;
+    background-color: #9de4e785;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    max-height: 300px;
+    overflow: auto;
+    justify-content: center;
+    row-gap: 15px;
+    
+}
+.itemsInShop{
+    background-color:#d19de785;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    align-content: center;
+    justify-content: center;
+    row-gap:15px;
+    padding-top:3vh;
+    padding-bottom:3vh;
+}
+.errorMessage{
+    color:red;
+}

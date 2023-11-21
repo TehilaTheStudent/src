@@ -1,0 +1,12 @@
+.morning{
+    background-color: green;
+}
+.night{
+    background-color:blue;
+}
+.noon{
+    background-color:yellow;
+}
+.night ,.noon ,.morning{
+    margin:5px;
+}
